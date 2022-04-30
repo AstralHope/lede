@@ -15,7 +15,7 @@ roqos-roqos-core-rc10)
 	ucidef_set_interfaces_lan_wan "eth1" "eth0"
 	;;
 brounion-r86s)
-	ucidef_set_interfaces_lan_wan "eth1 eth2 eth3 eth4" "eth0"
+	ucidef_set_interfaces_lan_wan "eth1 eth2 eth3" "eth4"
 	;;
 sophos-sg-105|sophos-xg-105)
 	ucidef_set_interfaces_lan_wan "eth0 eth2 eth3" "eth1"
